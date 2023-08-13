@@ -1,4 +1,4 @@
-export const enum TodoStatus {
+export enum TodoStatus {
   CREATED = 'created',
   DOING = 'doing',
   DONE = 'done',

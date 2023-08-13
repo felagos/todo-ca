@@ -15,5 +15,5 @@ export class TodoEntity {
   status: string;
 
   @Column()
-  created: Date;
+  created: string;
 }

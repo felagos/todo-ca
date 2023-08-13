@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
-import { TypeormModule } from './config/typeorm/typeorm.module';
+import { TypeOrmConfigModule } from './config/typeorm/typeorm..config.module';
 
 @Module({
-  imports: [],
+  imports: [TypeOrmConfigModule],
 })
 export class SharedModule {}
